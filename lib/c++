@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main_(){
+int a=4;
+return a;
+}
+int main()
+{
+string s;
+getline(cin,s);
+//cin<<s;
+cout<<s<<main_();
+return 0;
+}
